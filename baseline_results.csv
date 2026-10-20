@@ -1,0 +1,36 @@
+question,actual_intent,raw_prediction,predicted_intent,confidence
+Good evening,greeting,greeting,greeting,0.991
+Good morning,greeting,greeting,greeting,0.991
+Hello there,greeting,greeting,greeting,0.999
+"Hey, is anyone available?",greeting,greeting,greeting,1.0
+Good afternoon,greeting,greeting,greeting,0.991
+"I have to leave now, goodbye",goodbye,goodbye,fallback,0.488
+Talk to you soon,goodbye,thanks,fallback,0.536
+I'm signing off now,goodbye,greeting,fallback,0.607
+"Time to go, bye",goodbye,goodbye,goodbye,0.998
+Let's end this chat,goodbye,thanks,thanks,0.961
+Thanks for your help,thanks,thanks,thanks,0.999
+Much appreciated,thanks,greeting,fallback,0.59
+I really appreciate your assistance,thanks,greeting,fallback,0.607
+Cheers for the support,thanks,greeting,fallback,0.59
+I'm grateful for your help,thanks,thanks,thanks,0.84
+What products can I buy?,items,items,fallback,0.715
+Can you show me your product range?,items,funny,fallback,0.615
+What do you have in stock?,items,items,items,0.996
+Is there a catalogue of products?,items,greeting,greeting,0.898
+What merchandise is available?,items,thanks,fallback,0.645
+Can I pay using a debit card?,payments,payments,payments,0.998
+What payment methods are available?,payments,thanks,fallback,0.536
+Can I pay online?,payments,payments,payments,0.95
+Do you allow card payments?,payments,payments,payments,0.973
+Is PayPal an option?,payments,greeting,greeting,0.974
+When will my parcel arrive?,delivery,delivery,fallback,0.55
+How quickly can you ship an order?,delivery,greeting,greeting,0.91
+What is the expected arrival time?,delivery,thanks,fallback,0.645
+When should I expect my package?,delivery,delivery,delivery,0.837
+What is the shipping timeframe?,delivery,delivery,fallback,0.554
+Tell me something funny about cats,funny,funny,funny,0.999
+Make me laugh,funny,funny,fallback,0.381
+Can you share a humorous story?,funny,funny,fallback,0.566
+I want to hear a joke,funny,funny,fallback,0.598
+Do you have something amusing to say?,funny,thanks,fallback,0.443

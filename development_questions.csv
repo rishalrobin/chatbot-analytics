@@ -1,0 +1,36 @@
+question,actual_intent
+Good evening,greeting
+Good morning,greeting
+Hello there,greeting
+"Hey, is anyone available?",greeting
+Good afternoon,greeting
+"I have to leave now, goodbye",goodbye
+Talk to you soon,goodbye
+I'm signing off now,goodbye
+"Time to go, bye",goodbye
+Let's end this chat,goodbye
+Thanks for your help,thanks
+Much appreciated,thanks
+I really appreciate your assistance,thanks
+Cheers for the support,thanks
+I'm grateful for your help,thanks
+What products can I buy?,items
+Can you show me your product range?,items
+What do you have in stock?,items
+Is there a catalogue of products?,items
+What merchandise is available?,items
+Can I pay using a debit card?,payments
+What payment methods are available?,payments
+Can I pay online?,payments
+Do you allow card payments?,payments
+Is PayPal an option?,payments
+When will my parcel arrive?,delivery
+How quickly can you ship an order?,delivery
+What is the expected arrival time?,delivery
+When should I expect my package?,delivery
+What is the shipping timeframe?,delivery
+Tell me something funny about cats,funny
+Make me laugh,funny
+Can you share a humorous story?,funny
+I want to hear a joke,funny
+Do you have something amusing to say?,funny

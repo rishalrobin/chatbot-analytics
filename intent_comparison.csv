@@ -1,0 +1,8 @@
+actual_intent,Baseline Accuracy (%),Optimized Accuracy (%),Improvement (pp)
+delivery,10.0,60.0,50.0
+funny,50.0,70.0,20.0
+goodbye,20.0,50.0,30.0
+greeting,90.0,90.0,0.0
+items,10.0,60.0,50.0
+payments,10.0,60.0,50.0
+thanks,70.0,80.0,10.0

@@ -1,0 +1,86 @@
+question,actual_intent,test_type
+"Hi there, can we chat?",greeting,in_scope
+"Hello, I just arrived",greeting,in_scope
+"Morning, anyone here?",greeting,in_scope
+"Hey support, are you online?",greeting,in_scope
+Greetings from a new customer,greeting,in_scope
+"Hello again, assistant",greeting,in_scope
+"Hi, I need some help",greeting,in_scope
+Good evening to the support staff,greeting,in_scope
+"Hey bot, how's it going?",greeting,in_scope
+"Hello, may I ask something?",greeting,in_scope
+I am done chatting for today,goodbye,in_scope
+"Farewell, assistant",goodbye,in_scope
+Catch you another time,goodbye,in_scope
+"That is all, bye for now",goodbye,in_scope
+I must disconnect now,goodbye,in_scope
+We are finished talking,goodbye,in_scope
+I will return another day,goodbye,in_scope
+"Signing out, see you",goodbye,in_scope
+"No more questions, farewell",goodbye,in_scope
+I am leaving this conversation,goodbye,in_scope
+Thanks a million,thanks,in_scope
+That was very kind of you,thanks,in_scope
+I am thankful for the information,thanks,in_scope
+You've helped me a great deal,thanks,in_scope
+My sincere thanks to you,thanks,in_scope
+I am very grateful,thanks,in_scope
+I value your assistance,thanks,in_scope
+Thank you so much for explaining,thanks,in_scope
+"That really helped, thanks",thanks,in_scope
+Please accept my thanks,thanks,in_scope
+What can customers purchase here?,items,in_scope
+What types of goods do you carry?,items,in_scope
+May I see a list of products?,items,in_scope
+What is currently available to buy?,items,in_scope
+Tell me about your product selection,items,in_scope
+Do you offer different categories of goods?,items,in_scope
+Which things are sold in this store?,items,in_scope
+I would like to explore your inventory,items,in_scope
+What products does your business offer?,items,in_scope
+Show me the available merchandise,items,in_scope
+Can customers use Visa at checkout?,payments,in_scope
+Is it possible to pay electronically?,payments,in_scope
+Which payment options do you support?,payments,in_scope
+Will you accept a bank transfer?,payments,in_scope
+Can my purchase be paid by card?,payments,in_scope
+Is cash payment possible?,payments,in_scope
+What are the available ways to pay?,payments,in_scope
+Do you support contactless payments?,payments,in_scope
+Can I complete checkout with a credit card?,payments,in_scope
+Is payment through an online wallet accepted?,payments,in_scope
+Approximately when will my order arrive?,delivery,in_scope
+How many working days is shipping?,delivery,in_scope
+How much time does delivery usually need?,delivery,in_scope
+Can you estimate when my parcel gets here?,delivery,in_scope
+What is the normal shipping duration?,delivery,in_scope
+How long before the goods reach my address?,delivery,in_scope
+When can I expect the shipment?,delivery,in_scope
+Is the delivery period several days?,delivery,in_scope
+How soon can my purchase arrive?,delivery,in_scope
+Tell me the approximate delivery time,delivery,in_scope
+Could you entertain me with a joke?,funny,in_scope
+Please say something hilarious,funny,in_scope
+I need a good laugh right now,funny,in_scope
+Do you have any jokes to share?,funny,in_scope
+Tell a joke to cheer me up,funny,in_scope
+Can you make this conversation amusing?,funny,in_scope
+Share something comical with me,funny,in_scope
+Know any hilarious one-liners?,funny,in_scope
+Please tell me a silly story,funny,in_scope
+Give me something funny to hear,funny,in_scope
+Please reset my account password,out_of_scope,out_of_scope
+I want to request a full refund,out_of_scope,out_of_scope
+Can I speak to a human manager?,out_of_scope,out_of_scope
+Please cancel my latest purchase,out_of_scope,out_of_scope
+What is the weather forecast tomorrow?,out_of_scope,out_of_scope
+Can you translate this into German?,out_of_scope,out_of_scope
+How can I change my email address?,out_of_scope,out_of_scope
+What is 19 multiplied by 27?,out_of_scope,out_of_scope
+Where is the nearest railway station?,out_of_scope,out_of_scope
+Help me repair my broken laptop,out_of_scope,out_of_scope
+Can you change my billing address?,out_of_scope,out_of_scope
+What are your store opening hours?,out_of_scope,out_of_scope
+Please delete my customer account,out_of_scope,out_of_scope
+I want to report a security problem,out_of_scope,out_of_scope
+How can I exchange a damaged item?,out_of_scope,out_of_scope

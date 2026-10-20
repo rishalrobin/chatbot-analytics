@@ -1,0 +1,8 @@
+Intent,Precision,Recall,F1-score
+delivery,1.0,0.1,0.182
+funny,0.833,0.5,0.625
+goodbye,1.0,0.2,0.333
+greeting,0.474,0.9,0.621
+items,1.0,0.1,0.182
+payments,1.0,0.1,0.182
+thanks,1.0,0.7,0.824

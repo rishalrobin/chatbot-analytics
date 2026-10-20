@@ -1,0 +1,9 @@
+actual_intent,Baseline Fallback (%),Optimized Fallback (%),Change (pp)
+delivery,50.0,30.0,-20.0
+funny,40.0,10.0,-30.0
+goodbye,60.0,30.0,-30.0
+greeting,10.0,10.0,0.0
+items,80.0,30.0,-50.0
+out_of_scope,73.33333333333333,46.666666666666664,-26.666666666666664
+payments,60.0,20.0,-40.0
+thanks,30.0,20.0,-10.0

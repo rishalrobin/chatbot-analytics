@@ -1,0 +1,21 @@
+session_id,turn,question,expected_intent
+S01,1,Which goods do you offer customers?,items
+S01,2,Can I use my debit card to purchase one?,payments
+S02,1,What is the typical delivery duration?,delivery
+S02,2,Can I pay for an order with Mastercard?,payments
+S03,1,What products are sold in your shop?,items
+S03,2,How soon will those products arrive?,delivery
+S04,1,Can I make a payment with a card?,payments
+S04,2,Which merchandise can I order?,items
+S05,1,How many days will my parcel take?,delivery
+S05,2,Which payment methods can I choose?,payments
+S06,1,What goods do you currently sell?,items
+S06,2,Can you tell me the shipping duration?,delivery
+S07,1,Do you allow online card payments?,payments
+S07,2,What is the usual shipping time?,delivery
+S08,1,Can I browse the products you carry?,items
+S08,2,Is paying by credit card allowed?,payments
+S09,1,When should my delivery reach me?,delivery
+S09,2,What things are available for purchase?,items
+S10,1,How can customers pay for their orders?,payments
+S10,2,How long does the delivery process take?,delivery

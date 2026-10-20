@@ -1,0 +1,132 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Greetings",
+                "Hey there",
+                "Hello support team",
+                "Hi customer service",
+                "Good to see you"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "I'm heading out now",
+                "We can finish our conversation",
+                "I need to go now",
+                "I'll speak to you another time",
+                "End this conversation please"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "I appreciate the help you provided",
+                "You have been very helpful",
+                "Thank you for assisting me today",
+                "Many thanks for answering",
+                "Your assistance was useful"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?",
+                "Could you list the items on sale",
+                "Which products are available in your shop",
+                "Show me what your store sells",
+                "Do you have any goods for purchase",
+                "Can I browse your inventory"
+            ],
+            "responses": [
+                "We sell coffee and tea",
+                "We have coffee and tea"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?",
+                "Are debit cards supported",
+                "Which cards are accepted",
+                "Is online payment supported",
+                "Can I use a bank card for checkout",
+                "Can I make a payment using PayPal"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery?",
+                "How many days does shipping require",
+                "Can you tell me the estimated delivery date",
+                "How soon is my package shipped",
+                "What's the usual delivery period",
+                "I want to know when my order reaches me"
+            ],
+            "responses": [
+                "Delivery takes 2-4 days",
+                "Shipping takes 2-4 days"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?",
+                "Say something that will make me laugh",
+                "Could you crack a joke for me",
+                "Share a silly joke",
+                "Give me a funny line",
+                "I'm in the mood for humour"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison."
+            ]
+        }
+    ]
+}

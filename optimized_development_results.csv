@@ -1,0 +1,36 @@
+question,actual_intent,raw_prediction,predicted_intent,confidence
+Good evening,greeting,greeting,greeting,0.9996954202651978
+Good morning,greeting,greeting,greeting,0.9996954202651978
+Hello there,greeting,greeting,greeting,0.9999887943267822
+"Hey, is anyone available?",greeting,greeting,greeting,0.9999899864196777
+Good afternoon,greeting,greeting,greeting,0.9996954202651978
+"I have to leave now, goodbye",goodbye,goodbye,goodbye,0.9978010058403015
+Talk to you soon,goodbye,funny,fallback,0.478545606136322
+I'm signing off now,goodbye,goodbye,goodbye,0.9886549711227417
+"Time to go, bye",goodbye,goodbye,goodbye,0.9999212026596069
+Let's end this chat,goodbye,goodbye,goodbye,0.9928357005119324
+Thanks for your help,thanks,thanks,thanks,0.9999943971633911
+Much appreciated,thanks,thanks,thanks,0.7657666206359863
+I really appreciate your assistance,thanks,thanks,thanks,0.9736707806587219
+Cheers for the support,thanks,funny,fallback,0.6864738464355469
+I'm grateful for your help,thanks,funny,fallback,0.7459113597869873
+What products can I buy?,items,items,items,0.9119402170181274
+Can you show me your product range?,items,items,items,0.9583841562271118
+What do you have in stock?,items,items,items,0.9997695088386536
+Is there a catalogue of products?,items,funny,fallback,0.6214359402656555
+What merchandise is available?,items,items,items,0.9892405867576599
+Can I pay using a debit card?,payments,payments,payments,0.9999817609786987
+What payment methods are available?,payments,greeting,greeting,0.9487723708152771
+Can I pay online?,payments,payments,payments,0.9973880648612976
+Do you allow card payments?,payments,payments,payments,0.9996403455734253
+Is PayPal an option?,payments,payments,payments,0.9299007058143616
+When will my parcel arrive?,delivery,delivery,delivery,0.829388439655304
+How quickly can you ship an order?,delivery,delivery,fallback,0.48191308975219727
+What is the expected arrival time?,delivery,items,fallback,0.4650711715221405
+When should I expect my package?,delivery,delivery,delivery,0.9811997413635254
+What is the shipping timeframe?,delivery,delivery,delivery,0.9341585040092468
+Tell me something funny about cats,funny,funny,funny,0.999889612197876
+Make me laugh,funny,funny,funny,0.983995258808136
+Can you share a humorous story?,funny,funny,funny,0.9720988273620605
+I want to hear a joke,funny,funny,funny,0.9898446798324585
+Do you have something amusing to say?,funny,funny,funny,0.878913402557373

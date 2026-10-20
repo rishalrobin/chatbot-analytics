@@ -1,0 +1,171 @@
+interaction_id,model,timestamp_utc,question,actual_intent,test_type,raw_intent,predicted_intent,confidence,fallback,correct_decision,response,response_time_ms,source
+Baseline_001,Baseline,2026-10-20T00:44:20.425403+00:00,"Hi there, can we chat?",greeting,in_scope,greeting,greeting,0.9986,False,True,Hey :-),1.2938,synthetic_test_replay
+Baseline_002,Baseline,2026-10-20T00:44:20.426402+00:00,"Hello, I just arrived",greeting,in_scope,greeting,greeting,0.9981,False,True,Hey :-),0.6098,synthetic_test_replay
+Baseline_003,Baseline,2026-10-20T00:44:20.427198+00:00,"Morning, anyone here?",greeting,in_scope,greeting,greeting,0.9901,False,True,Hey :-),0.4909,synthetic_test_replay
+Baseline_004,Baseline,2026-10-20T00:44:20.427995+00:00,"Hey support, are you online?",greeting,in_scope,greeting,greeting,0.9996,False,True,Hey :-),0.544,synthetic_test_replay
+Baseline_005,Baseline,2026-10-20T00:44:20.428760+00:00,Greetings from a new customer,greeting,in_scope,greeting,fallback,0.6095,True,False,I do not understand.,0.4947,synthetic_test_replay
+Baseline_006,Baseline,2026-10-20T00:44:20.429623+00:00,"Hello again, assistant",greeting,in_scope,greeting,greeting,0.9988,False,True,Hey :-),0.5067,synthetic_test_replay
+Baseline_007,Baseline,2026-10-20T00:44:20.430365+00:00,"Hi, I need some help",greeting,in_scope,greeting,greeting,0.9928,False,True,Hey :-),0.4873,synthetic_test_replay
+Baseline_008,Baseline,2026-10-20T00:44:20.431186+00:00,Good evening to the support staff,greeting,in_scope,greeting,greeting,0.9906,False,True,Hey :-),0.5167,synthetic_test_replay
+Baseline_009,Baseline,2026-10-20T00:44:20.434257+00:00,"Hey bot, how's it going?",greeting,in_scope,greeting,greeting,0.9996,False,True,Hey :-),0.6012,synthetic_test_replay
+Baseline_010,Baseline,2026-10-20T00:44:20.435143+00:00,"Hello, may I ask something?",greeting,in_scope,greeting,greeting,0.9989,False,True,Hey :-),0.5122,synthetic_test_replay
+Baseline_011,Baseline,2026-10-20T00:44:20.435901+00:00,I am done chatting for today,goodbye,in_scope,greeting,fallback,0.6067,True,False,I do not understand.,0.5104,synthetic_test_replay
+Baseline_012,Baseline,2026-10-20T00:44:20.436537+00:00,"Farewell, assistant",goodbye,in_scope,greeting,fallback,0.59,True,False,I do not understand.,0.3971,synthetic_test_replay
+Baseline_013,Baseline,2026-10-20T00:44:20.439399+00:00,Catch you another time,goodbye,in_scope,thanks,fallback,0.536,True,False,I do not understand.,0.5211,synthetic_test_replay
+Baseline_014,Baseline,2026-10-20T00:44:20.440184+00:00,"That is all, bye for now",goodbye,in_scope,goodbye,goodbye,0.975,False,True,"See you later, thanks for visiting",0.5091,synthetic_test_replay
+Baseline_015,Baseline,2026-10-20T00:44:20.442953+00:00,I must disconnect now,goodbye,in_scope,greeting,fallback,0.6067,True,False,I do not understand.,2.5201,synthetic_test_replay
+Baseline_016,Baseline,2026-10-20T00:44:20.443716+00:00,We are finished talking,goodbye,in_scope,greeting,greeting,0.9686,False,False,Hey :-),0.5006,synthetic_test_replay
+Baseline_017,Baseline,2026-10-20T00:44:20.444348+00:00,I will return another day,goodbye,in_scope,greeting,greeting,0.9873,False,False,Hey :-),0.3378,synthetic_test_replay
+Baseline_018,Baseline,2026-10-20T00:44:20.445037+00:00,"Signing out, see you",goodbye,in_scope,goodbye,goodbye,0.9655,False,True,"See you later, thanks for visiting",0.522,synthetic_test_replay
+Baseline_019,Baseline,2026-10-20T00:44:20.445696+00:00,"No more questions, farewell",goodbye,in_scope,greeting,fallback,0.59,True,False,I do not understand.,0.4247,synthetic_test_replay
+Baseline_020,Baseline,2026-10-20T00:44:20.446198+00:00,I am leaving this conversation,goodbye,in_scope,greeting,fallback,0.6067,True,False,I do not understand.,0.2989,synthetic_test_replay
+Baseline_021,Baseline,2026-10-20T00:44:20.446793+00:00,Thanks a million,thanks,in_scope,thanks,thanks,0.9938,False,True,Happy to help!,0.4307,synthetic_test_replay
+Baseline_022,Baseline,2026-10-20T00:44:20.447434+00:00,That was very kind of you,thanks,in_scope,thanks,thanks,0.7666,False,True,Happy to help!,0.4313,synthetic_test_replay
+Baseline_023,Baseline,2026-10-20T00:44:20.448097+00:00,I am thankful for the information,thanks,in_scope,thanks,thanks,0.9931,False,True,Happy to help!,0.4343,synthetic_test_replay
+Baseline_024,Baseline,2026-10-20T00:44:20.448791+00:00,You've helped me a great deal,thanks,in_scope,funny,fallback,0.7246,True,False,I do not understand.,0.4853,synthetic_test_replay
+Baseline_025,Baseline,2026-10-20T00:44:20.449434+00:00,My sincere thanks to you,thanks,in_scope,thanks,thanks,0.9984,False,True,Happy to help!,0.3897,synthetic_test_replay
+Baseline_026,Baseline,2026-10-20T00:44:20.450075+00:00,I am very grateful,thanks,in_scope,greeting,fallback,0.6067,True,False,I do not understand.,0.4054,synthetic_test_replay
+Baseline_027,Baseline,2026-10-20T00:44:20.452799+00:00,I value your assistance,thanks,in_scope,greeting,fallback,0.6067,True,False,I do not understand.,2.4996,synthetic_test_replay
+Baseline_028,Baseline,2026-10-20T00:44:20.453596+00:00,Thank you so much for explaining,thanks,in_scope,thanks,thanks,0.9988,False,True,Happy to help!,0.508,synthetic_test_replay
+Baseline_029,Baseline,2026-10-20T00:44:20.454290+00:00,"That really helped, thanks",thanks,in_scope,thanks,thanks,0.9999,False,True,Happy to help!,0.4623,synthetic_test_replay
+Baseline_030,Baseline,2026-10-20T00:44:20.457070+00:00,Please accept my thanks,thanks,in_scope,thanks,thanks,0.9921,False,True,Happy to help!,2.5493,synthetic_test_replay
+Baseline_031,Baseline,2026-10-20T00:44:20.457875+00:00,What can customers purchase here?,items,in_scope,items,fallback,0.6831,True,False,I do not understand.,0.5326,synthetic_test_replay
+Baseline_032,Baseline,2026-10-20T00:44:20.460709+00:00,What types of goods do you carry?,items,in_scope,items,items,0.8259,False,True,We sell coffee and tea,2.5911,synthetic_test_replay
+Baseline_033,Baseline,2026-10-20T00:44:20.461505+00:00,May I see a list of products?,items,in_scope,thanks,fallback,0.4602,True,False,I do not understand.,0.4822,synthetic_test_replay
+Baseline_034,Baseline,2026-10-20T00:44:20.462262+00:00,What is currently available to buy?,items,in_scope,thanks,fallback,0.6454,True,False,I do not understand.,0.502,synthetic_test_replay
+Baseline_035,Baseline,2026-10-20T00:44:20.465057+00:00,Tell me about your product selection,items,in_scope,funny,funny,0.9591,False,False,Why did the hipster burn his mouth? He drank the coffee before it was cool.,2.5702,synthetic_test_replay
+Baseline_036,Baseline,2026-10-20T00:44:20.465905+00:00,Do you offer different categories of goods?,items,in_scope,thanks,fallback,0.7176,True,False,I do not understand.,0.5697,synthetic_test_replay
+Baseline_037,Baseline,2026-10-20T00:44:20.468792+00:00,Which things are sold in this store?,items,in_scope,thanks,fallback,0.6001,True,False,I do not understand.,2.64,synthetic_test_replay
+Baseline_038,Baseline,2026-10-20T00:44:20.469631+00:00,I would like to explore your inventory,items,in_scope,greeting,fallback,0.6067,True,False,I do not understand.,0.5296,synthetic_test_replay
+Baseline_039,Baseline,2026-10-20T00:44:20.470452+00:00,What products does your business offer?,items,in_scope,delivery,fallback,0.4699,True,False,I do not understand.,0.5587,synthetic_test_replay
+Baseline_040,Baseline,2026-10-20T00:44:20.473257+00:00,Show me the available merchandise,items,in_scope,funny,fallback,0.3807,True,False,I do not understand.,0.5073,synthetic_test_replay
+Baseline_041,Baseline,2026-10-20T00:44:20.474022+00:00,Can customers use Visa at checkout?,payments,in_scope,thanks,fallback,0.4272,True,False,I do not understand.,0.5271,synthetic_test_replay
+Baseline_042,Baseline,2026-10-20T00:44:20.477014+00:00,Is it possible to pay electronically?,payments,in_scope,greeting,greeting,0.9794,False,False,Hey :-),2.7665,synthetic_test_replay
+Baseline_043,Baseline,2026-10-20T00:44:20.477941+00:00,Which payment options do you support?,payments,in_scope,items,fallback,0.5088,True,False,I do not understand.,0.6148,synthetic_test_replay
+Baseline_044,Baseline,2026-10-20T00:44:20.480837+00:00,Will you accept a bank transfer?,payments,in_scope,funny,fallback,0.6454,True,False,I do not understand.,2.6365,synthetic_test_replay
+Baseline_045,Baseline,2026-10-20T00:44:20.481702+00:00,Can my purchase be paid by card?,payments,in_scope,payments,fallback,0.6024,True,False,I do not understand.,0.5738,synthetic_test_replay
+Baseline_046,Baseline,2026-10-20T00:44:20.482427+00:00,Is cash payment possible?,payments,in_scope,greeting,greeting,0.9309,False,False,Hey :-),0.4684,synthetic_test_replay
+Baseline_047,Baseline,2026-10-20T00:44:20.485390+00:00,What are the available ways to pay?,payments,in_scope,payments,fallback,0.4585,True,False,I do not understand.,0.6258,synthetic_test_replay
+Baseline_048,Baseline,2026-10-20T00:44:20.486193+00:00,Do you support contactless payments?,payments,in_scope,thanks,fallback,0.5857,True,False,I do not understand.,0.5091,synthetic_test_replay
+Baseline_049,Baseline,2026-10-20T00:44:20.489101+00:00,Can I complete checkout with a credit card?,payments,in_scope,payments,payments,0.9997,False,True,"We accept VISA, Mastercard and Paypal",2.6667,synthetic_test_replay
+Baseline_050,Baseline,2026-10-20T00:44:20.490014+00:00,Is payment through an online wallet accepted?,payments,in_scope,greeting,greeting,0.9675,False,False,Hey :-),0.6346,synthetic_test_replay
+Baseline_051,Baseline,2026-10-20T00:44:20.492905+00:00,Approximately when will my order arrive?,delivery,in_scope,delivery,fallback,0.5503,True,False,I do not understand.,2.6461,synthetic_test_replay
+Baseline_052,Baseline,2026-10-20T00:44:20.493786+00:00,How many working days is shipping?,delivery,in_scope,greeting,greeting,0.9998,False,False,Hey :-),0.6055,synthetic_test_replay
+Baseline_053,Baseline,2026-10-20T00:44:20.496782+00:00,How much time does delivery usually need?,delivery,in_scope,delivery,delivery,0.8564,False,True,Delivery takes 2-4 days,2.7357,synthetic_test_replay
+Baseline_054,Baseline,2026-10-20T00:44:20.497728+00:00,Can you estimate when my parcel gets here?,delivery,in_scope,delivery,fallback,0.5721,True,False,I do not understand.,0.6692,synthetic_test_replay
+Baseline_055,Baseline,2026-10-20T00:44:20.498526+00:00,What is the normal shipping duration?,delivery,in_scope,delivery,fallback,0.5537,True,False,I do not understand.,0.5444,synthetic_test_replay
+Baseline_056,Baseline,2026-10-20T00:44:20.501500+00:00,How long before the goods reach my address?,delivery,in_scope,greeting,greeting,0.9119,False,False,Hey :-),0.6361,synthetic_test_replay
+Baseline_057,Baseline,2026-10-20T00:44:20.502297+00:00,When can I expect the shipment?,delivery,in_scope,greeting,fallback,0.3964,True,False,I do not understand.,0.5103,synthetic_test_replay
+Baseline_058,Baseline,2026-10-20T00:44:20.505063+00:00,Is the delivery period several days?,delivery,in_scope,greeting,greeting,0.9994,False,False,Hey :-),2.5257,synthetic_test_replay
+Baseline_059,Baseline,2026-10-20T00:44:20.505874+00:00,How soon can my purchase arrive?,delivery,in_scope,greeting,greeting,0.9794,False,False,Hey :-),0.5518,synthetic_test_replay
+Baseline_060,Baseline,2026-10-20T00:44:20.506929+00:00,Tell me the approximate delivery time,delivery,in_scope,funny,fallback,0.3477,True,False,I do not understand.,0.8299,synthetic_test_replay
+Baseline_061,Baseline,2026-10-20T00:44:20.507700+00:00,Could you entertain me with a joke?,funny,in_scope,funny,funny,0.999,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.536,synthetic_test_replay
+Baseline_062,Baseline,2026-10-20T00:44:20.508408+00:00,Please say something hilarious,funny,in_scope,greeting,fallback,0.642,True,False,I do not understand.,0.4698,synthetic_test_replay
+Baseline_063,Baseline,2026-10-20T00:44:20.509077+00:00,I need a good laugh right now,funny,in_scope,greeting,greeting,0.9981,False,False,Hey :-),0.4384,synthetic_test_replay
+Baseline_064,Baseline,2026-10-20T00:44:20.509803+00:00,Do you have any jokes to share?,funny,in_scope,thanks,fallback,0.4974,True,False,I do not understand.,0.5125,synthetic_test_replay
+Baseline_065,Baseline,2026-10-20T00:44:20.510714+00:00,Tell a joke to cheer me up,funny,in_scope,funny,funny,0.9997,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.6543,synthetic_test_replay
+Baseline_066,Baseline,2026-10-20T00:44:20.511597+00:00,Can you make this conversation amusing?,funny,in_scope,thanks,fallback,0.5595,True,False,I do not understand.,0.6273,synthetic_test_replay
+Baseline_067,Baseline,2026-10-20T00:44:20.512430+00:00,Share something comical with me,funny,in_scope,funny,funny,0.9603,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.535,synthetic_test_replay
+Baseline_068,Baseline,2026-10-20T00:44:20.513198+00:00,Know any hilarious one-liners?,funny,in_scope,goodbye,fallback,0.3998,True,False,I do not understand.,0.4753,synthetic_test_replay
+Baseline_069,Baseline,2026-10-20T00:44:20.513870+00:00,Please tell me a silly story,funny,in_scope,funny,funny,0.9942,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.4484,synthetic_test_replay
+Baseline_070,Baseline,2026-10-20T00:44:20.514884+00:00,Give me something funny to hear,funny,in_scope,funny,funny,0.9747,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.7844,synthetic_test_replay
+Baseline_071,Baseline,2026-10-20T00:44:20.515636+00:00,Please reset my account password,out_of_scope,out_of_scope,greeting,fallback,0.609,True,True,I do not understand.,0.5044,synthetic_test_replay
+Baseline_072,Baseline,2026-10-20T00:44:20.518201+00:00,I want to request a full refund,out_of_scope,out_of_scope,greeting,greeting,0.8211,False,False,Hey :-),0.562,synthetic_test_replay
+Baseline_073,Baseline,2026-10-20T00:44:20.520999+00:00,Can I speak to a human manager?,out_of_scope,out_of_scope,greeting,fallback,0.4702,True,True,I do not understand.,2.539,synthetic_test_replay
+Baseline_074,Baseline,2026-10-20T00:44:20.521820+00:00,Please cancel my latest purchase,out_of_scope,out_of_scope,greeting,fallback,0.609,True,True,I do not understand.,0.5373,synthetic_test_replay
+Baseline_075,Baseline,2026-10-20T00:44:20.526771+00:00,What is the weather forecast tomorrow?,out_of_scope,out_of_scope,thanks,fallback,0.6454,True,True,I do not understand.,4.6987,synthetic_test_replay
+Baseline_076,Baseline,2026-10-20T00:44:20.527800+00:00,Can you translate this into German?,out_of_scope,out_of_scope,thanks,fallback,0.5595,True,True,I do not understand.,0.6864,synthetic_test_replay
+Baseline_077,Baseline,2026-10-20T00:44:20.530794+00:00,How can I change my email address?,out_of_scope,out_of_scope,greeting,greeting,0.9284,False,False,Hey :-),2.7138,synthetic_test_replay
+Baseline_078,Baseline,2026-10-20T00:44:20.531597+00:00,What is 19 multiplied by 27?,out_of_scope,out_of_scope,thanks,fallback,0.6454,True,True,I do not understand.,0.5071,synthetic_test_replay
+Baseline_079,Baseline,2026-10-20T00:44:20.532413+00:00,Where is the nearest railway station?,out_of_scope,out_of_scope,greeting,greeting,0.9908,False,False,Hey :-),0.5628,synthetic_test_replay
+Baseline_080,Baseline,2026-10-20T00:44:20.535391+00:00,Help me repair my broken laptop,out_of_scope,out_of_scope,thanks,fallback,0.7075,True,True,I do not understand.,0.5942,synthetic_test_replay
+Baseline_081,Baseline,2026-10-20T00:44:20.536286+00:00,Can you change my billing address?,out_of_scope,out_of_scope,thanks,fallback,0.6654,True,True,I do not understand.,0.598,synthetic_test_replay
+Baseline_082,Baseline,2026-10-20T00:44:20.537130+00:00,What are your store opening hours?,out_of_scope,out_of_scope,thanks,fallback,0.536,True,True,I do not understand.,0.5847,synthetic_test_replay
+Baseline_083,Baseline,2026-10-20T00:44:20.537914+00:00,Please delete my customer account,out_of_scope,out_of_scope,greeting,fallback,0.609,True,True,I do not understand.,0.5168,synthetic_test_replay
+Baseline_084,Baseline,2026-10-20T00:44:20.544956+00:00,I want to report a security problem,out_of_scope,out_of_scope,greeting,greeting,0.8211,False,False,Hey :-),6.7753,synthetic_test_replay
+Baseline_085,Baseline,2026-10-20T00:44:20.546126+00:00,How can I exchange a damaged item?,out_of_scope,out_of_scope,greeting,fallback,0.5421,True,True,I do not understand.,0.7262,synthetic_test_replay
+Optimized_001,Optimized,2026-10-20T00:44:20.558395+00:00,"Hi there, can we chat?",greeting,in_scope,greeting,greeting,0.9999,False,True,Hey :-),0.7272,synthetic_test_replay
+Optimized_002,Optimized,2026-10-20T00:44:20.561501+00:00,"Hello, I just arrived",greeting,in_scope,greeting,greeting,0.9995,False,True,Hey :-),0.6945,synthetic_test_replay
+Optimized_003,Optimized,2026-10-20T00:44:20.564946+00:00,"Morning, anyone here?",greeting,in_scope,greeting,greeting,0.9913,False,True,Hey :-),3.1171,synthetic_test_replay
+Optimized_004,Optimized,2026-10-20T00:44:20.566005+00:00,"Hey support, are you online?",greeting,in_scope,greeting,greeting,0.9966,False,True,Hey :-),0.6987,synthetic_test_replay
+Optimized_005,Optimized,2026-10-20T00:44:20.569045+00:00,Greetings from a new customer,greeting,in_scope,greeting,greeting,0.9998,False,True,Hey :-),2.7618,synthetic_test_replay
+Optimized_006,Optimized,2026-10-20T00:44:20.570019+00:00,"Hello again, assistant",greeting,in_scope,greeting,greeting,0.9929,False,True,Hey :-),0.6221,synthetic_test_replay
+Optimized_007,Optimized,2026-10-20T00:44:20.572918+00:00,"Hi, I need some help",greeting,in_scope,greeting,fallback,0.5881,True,False,I do not understand.,2.615,synthetic_test_replay
+Optimized_008,Optimized,2026-10-20T00:44:20.573873+00:00,Good evening to the support staff,greeting,in_scope,greeting,greeting,0.9999,False,True,Hey :-),0.6288,synthetic_test_replay
+Optimized_009,Optimized,2026-10-20T00:44:20.576860+00:00,"Hey bot, how's it going?",greeting,in_scope,greeting,greeting,0.9959,False,True,Hey :-),2.708,synthetic_test_replay
+Optimized_010,Optimized,2026-10-20T00:44:20.577818+00:00,"Hello, may I ask something?",greeting,in_scope,greeting,greeting,0.9921,False,True,Hey :-),0.6112,synthetic_test_replay
+Optimized_011,Optimized,2026-10-20T00:44:20.580741+00:00,I am done chatting for today,goodbye,in_scope,funny,fallback,0.6675,True,False,I do not understand.,2.6595,synthetic_test_replay
+Optimized_012,Optimized,2026-10-20T00:44:20.581543+00:00,"Farewell, assistant",goodbye,in_scope,thanks,thanks,0.9729,False,False,Happy to help!,0.492,synthetic_test_replay
+Optimized_013,Optimized,2026-10-20T00:44:20.583939+00:00,Catch you another time,goodbye,in_scope,goodbye,goodbye,0.9882,False,True,"See you later, thanks for visiting",2.1363,synthetic_test_replay
+Optimized_014,Optimized,2026-10-20T00:44:20.584718+00:00,"That is all, bye for now",goodbye,in_scope,goodbye,goodbye,0.9998,False,True,"See you later, thanks for visiting",0.5103,synthetic_test_replay
+Optimized_015,Optimized,2026-10-20T00:44:20.585402+00:00,I must disconnect now,goodbye,in_scope,goodbye,goodbye,0.9897,False,True,"See you later, thanks for visiting",0.4535,synthetic_test_replay
+Optimized_016,Optimized,2026-10-20T00:44:20.589341+00:00,We are finished talking,goodbye,in_scope,funny,fallback,0.4022,True,False,I do not understand.,0.6275,synthetic_test_replay
+Optimized_017,Optimized,2026-10-20T00:44:20.590364+00:00,I will return another day,goodbye,in_scope,funny,funny,0.7777,False,False,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.724,synthetic_test_replay
+Optimized_018,Optimized,2026-10-20T00:44:20.593395+00:00,"Signing out, see you",goodbye,in_scope,goodbye,goodbye,0.9684,False,True,"See you later, thanks for visiting",0.6552,synthetic_test_replay
+Optimized_019,Optimized,2026-10-20T00:44:20.594219+00:00,"No more questions, farewell",goodbye,in_scope,greeting,fallback,0.5051,True,False,I do not understand.,0.5163,synthetic_test_replay
+Optimized_020,Optimized,2026-10-20T00:44:20.597091+00:00,I am leaving this conversation,goodbye,in_scope,goodbye,goodbye,0.9978,False,True,"See you later, thanks for visiting",2.6306,synthetic_test_replay
+Optimized_021,Optimized,2026-10-20T00:44:20.597868+00:00,Thanks a million,thanks,in_scope,thanks,thanks,0.999,False,True,Happy to help!,0.471,synthetic_test_replay
+Optimized_022,Optimized,2026-10-20T00:44:20.600766+00:00,That was very kind of you,thanks,in_scope,thanks,thanks,0.9464,False,True,Happy to help!,2.6526,synthetic_test_replay
+Optimized_023,Optimized,2026-10-20T00:44:20.601653+00:00,I am thankful for the information,thanks,in_scope,thanks,thanks,0.9983,False,True,Happy to help!,0.5951,synthetic_test_replay
+Optimized_024,Optimized,2026-10-20T00:44:20.602506+00:00,You've helped me a great deal,thanks,in_scope,thanks,thanks,0.8223,False,True,Happy to help!,0.5966,synthetic_test_replay
+Optimized_025,Optimized,2026-10-20T00:44:20.605468+00:00,My sincere thanks to you,thanks,in_scope,thanks,thanks,0.9949,False,True,Happy to help!,0.6093,synthetic_test_replay
+Optimized_026,Optimized,2026-10-20T00:44:20.606220+00:00,I am very grateful,thanks,in_scope,thanks,fallback,0.7235,True,False,I do not understand.,0.4799,synthetic_test_replay
+Optimized_027,Optimized,2026-10-20T00:44:20.609014+00:00,I value your assistance,thanks,in_scope,thanks,fallback,0.5132,True,False,I do not understand.,2.5426,synthetic_test_replay
+Optimized_028,Optimized,2026-10-20T00:44:20.609878+00:00,Thank you so much for explaining,thanks,in_scope,thanks,thanks,0.9998,False,True,Happy to help!,0.5839,synthetic_test_replay
+Optimized_029,Optimized,2026-10-20T00:44:20.612784+00:00,"That really helped, thanks",thanks,in_scope,thanks,thanks,1.0,False,True,Happy to help!,2.6246,synthetic_test_replay
+Optimized_030,Optimized,2026-10-20T00:44:20.613578+00:00,Please accept my thanks,thanks,in_scope,thanks,thanks,0.8871,False,True,Happy to help!,0.5182,synthetic_test_replay
+Optimized_031,Optimized,2026-10-20T00:44:20.614395+00:00,What can customers purchase here?,items,in_scope,items,items,0.9626,False,True,We sell coffee and tea,0.5635,synthetic_test_replay
+Optimized_032,Optimized,2026-10-20T00:44:20.617310+00:00,What types of goods do you carry?,items,in_scope,items,items,0.9815,False,True,We sell coffee and tea,0.6209,synthetic_test_replay
+Optimized_033,Optimized,2026-10-20T00:44:20.618146+00:00,May I see a list of products?,items,in_scope,funny,fallback,0.4832,True,False,I do not understand.,0.5538,synthetic_test_replay
+Optimized_034,Optimized,2026-10-20T00:44:20.620899+00:00,What is currently available to buy?,items,in_scope,items,items,0.9905,False,True,We sell coffee and tea,2.4812,synthetic_test_replay
+Optimized_035,Optimized,2026-10-20T00:44:20.621764+00:00,Tell me about your product selection,items,in_scope,items,items,0.9614,False,True,We sell coffee and tea,0.6146,synthetic_test_replay
+Optimized_036,Optimized,2026-10-20T00:44:20.623459+00:00,Do you offer different categories of goods?,items,in_scope,greeting,greeting,0.9919,False,False,Hey :-),1.4499,synthetic_test_replay
+Optimized_037,Optimized,2026-10-20T00:44:20.624344+00:00,Which things are sold in this store?,items,in_scope,greeting,fallback,0.738,True,False,I do not understand.,0.6119,synthetic_test_replay
+Optimized_038,Optimized,2026-10-20T00:44:20.625214+00:00,I would like to explore your inventory,items,in_scope,items,items,0.9839,False,True,We sell coffee and tea,0.5898,synthetic_test_replay
+Optimized_039,Optimized,2026-10-20T00:44:20.626064+00:00,What products does your business offer?,items,in_scope,delivery,fallback,0.6047,True,False,I do not understand.,0.5897,synthetic_test_replay
+Optimized_040,Optimized,2026-10-20T00:44:20.626865+00:00,Show me the available merchandise,items,in_scope,items,items,0.9148,False,True,We sell coffee and tea,0.5202,synthetic_test_replay
+Optimized_041,Optimized,2026-10-20T00:44:20.627670+00:00,Can customers use Visa at checkout?,payments,in_scope,payments,payments,0.8072,False,True,"We accept VISA, Mastercard and Paypal",0.5753,synthetic_test_replay
+Optimized_042,Optimized,2026-10-20T00:44:20.628466+00:00,Is it possible to pay electronically?,payments,in_scope,greeting,fallback,0.5401,True,False,I do not understand.,0.5477,synthetic_test_replay
+Optimized_043,Optimized,2026-10-20T00:44:20.629313+00:00,Which payment options do you support?,payments,in_scope,greeting,fallback,0.6546,True,False,I do not understand.,0.5684,synthetic_test_replay
+Optimized_044,Optimized,2026-10-20T00:44:20.630148+00:00,Will you accept a bank transfer?,payments,in_scope,payments,payments,0.9978,False,True,"We accept VISA, Mastercard and Paypal",0.5625,synthetic_test_replay
+Optimized_045,Optimized,2026-10-20T00:44:20.630924+00:00,Can my purchase be paid by card?,payments,in_scope,goodbye,goodbye,0.9997,False,False,"See you later, thanks for visiting",0.5259,synthetic_test_replay
+Optimized_046,Optimized,2026-10-20T00:44:20.631796+00:00,Is cash payment possible?,payments,in_scope,payments,payments,0.9995,False,True,"We accept VISA, Mastercard and Paypal",0.6406,synthetic_test_replay
+Optimized_047,Optimized,2026-10-20T00:44:20.632659+00:00,What are the available ways to pay?,payments,in_scope,greeting,greeting,0.8472,False,False,Hey :-),0.6138,synthetic_test_replay
+Optimized_048,Optimized,2026-10-20T00:44:20.633431+00:00,Do you support contactless payments?,payments,in_scope,payments,payments,0.8869,False,True,"We accept VISA, Mastercard and Paypal",0.5319,synthetic_test_replay
+Optimized_049,Optimized,2026-10-20T00:44:20.634292+00:00,Can I complete checkout with a credit card?,payments,in_scope,payments,payments,1.0,False,True,"We accept VISA, Mastercard and Paypal",0.5989,synthetic_test_replay
+Optimized_050,Optimized,2026-10-20T00:44:20.635111+00:00,Is payment through an online wallet accepted?,payments,in_scope,payments,payments,1.0,False,True,"We accept VISA, Mastercard and Paypal",0.5669,synthetic_test_replay
+Optimized_051,Optimized,2026-10-20T00:44:20.635954+00:00,Approximately when will my order arrive?,delivery,in_scope,delivery,delivery,0.9945,False,True,Delivery takes 2-4 days,0.5863,synthetic_test_replay
+Optimized_052,Optimized,2026-10-20T00:44:20.636795+00:00,How many working days is shipping?,delivery,in_scope,items,fallback,0.6356,True,False,I do not understand.,0.591,synthetic_test_replay
+Optimized_053,Optimized,2026-10-20T00:44:20.637648+00:00,How much time does delivery usually need?,delivery,in_scope,delivery,delivery,0.9998,False,True,Delivery takes 2-4 days,0.6212,synthetic_test_replay
+Optimized_054,Optimized,2026-10-20T00:44:20.638513+00:00,Can you estimate when my parcel gets here?,delivery,in_scope,delivery,delivery,0.9995,False,True,Delivery takes 2-4 days,0.6254,synthetic_test_replay
+Optimized_055,Optimized,2026-10-20T00:44:20.639342+00:00,What is the normal shipping duration?,delivery,in_scope,delivery,delivery,0.9342,False,True,Delivery takes 2-4 days,0.5683,synthetic_test_replay
+Optimized_056,Optimized,2026-10-20T00:44:20.640319+00:00,How long before the goods reach my address?,delivery,in_scope,items,fallback,0.5122,True,False,I do not understand.,0.6874,synthetic_test_replay
+Optimized_057,Optimized,2026-10-20T00:44:20.641096+00:00,When can I expect the shipment?,delivery,in_scope,goodbye,goodbye,0.9755,False,False,"See you later, thanks for visiting",0.4882,synthetic_test_replay
+Optimized_058,Optimized,2026-10-20T00:44:20.641900+00:00,Is the delivery period several days?,delivery,in_scope,goodbye,fallback,0.3933,True,False,I do not understand.,0.5735,synthetic_test_replay
+Optimized_059,Optimized,2026-10-20T00:44:20.642712+00:00,How soon can my purchase arrive?,delivery,in_scope,delivery,delivery,0.9975,False,True,Delivery takes 2-4 days,0.5705,synthetic_test_replay
+Optimized_060,Optimized,2026-10-20T00:44:20.643461+00:00,Tell me the approximate delivery time,delivery,in_scope,delivery,delivery,0.834,False,True,Delivery takes 2-4 days,0.5131,synthetic_test_replay
+Optimized_061,Optimized,2026-10-20T00:44:20.644229+00:00,Could you entertain me with a joke?,funny,in_scope,funny,funny,0.9998,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.5178,synthetic_test_replay
+Optimized_062,Optimized,2026-10-20T00:44:20.644976+00:00,Please say something hilarious,funny,in_scope,funny,funny,0.9392,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.4934,synthetic_test_replay
+Optimized_063,Optimized,2026-10-20T00:44:20.645866+00:00,I need a good laugh right now,funny,in_scope,funny,funny,0.9894,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.6683,synthetic_test_replay
+Optimized_064,Optimized,2026-10-20T00:44:20.646738+00:00,Do you have any jokes to share?,funny,in_scope,items,items,0.9387,False,False,We sell coffee and tea,0.6121,synthetic_test_replay
+Optimized_065,Optimized,2026-10-20T00:44:20.647497+00:00,Tell a joke to cheer me up,funny,in_scope,funny,funny,0.9999,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.5122,synthetic_test_replay
+Optimized_066,Optimized,2026-10-20T00:44:20.648435+00:00,Can you make this conversation amusing?,funny,in_scope,goodbye,goodbye,0.994,False,False,"See you later, thanks for visiting",0.636,synthetic_test_replay
+Optimized_067,Optimized,2026-10-20T00:44:20.649230+00:00,Share something comical with me,funny,in_scope,funny,funny,0.9954,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.51,synthetic_test_replay
+Optimized_068,Optimized,2026-10-20T00:44:20.650022+00:00,Know any hilarious one-liners?,funny,in_scope,goodbye,fallback,0.598,True,False,I do not understand.,0.5513,synthetic_test_replay
+Optimized_069,Optimized,2026-10-20T00:44:20.650824+00:00,Please tell me a silly story,funny,in_scope,funny,funny,0.998,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.5712,synthetic_test_replay
+Optimized_070,Optimized,2026-10-20T00:44:20.651615+00:00,Give me something funny to hear,funny,in_scope,funny,funny,0.9997,False,True,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.5199,synthetic_test_replay
+Optimized_071,Optimized,2026-10-20T00:44:20.652936+00:00,Please reset my account password,out_of_scope,out_of_scope,goodbye,goodbye,0.9485,False,False,"See you later, thanks for visiting",1.0599,synthetic_test_replay
+Optimized_072,Optimized,2026-10-20T00:44:20.653854+00:00,I want to request a full refund,out_of_scope,out_of_scope,funny,funny,0.7904,False,False,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.6543,synthetic_test_replay
+Optimized_073,Optimized,2026-10-20T00:44:20.654794+00:00,Can I speak to a human manager?,out_of_scope,out_of_scope,goodbye,fallback,0.741,True,True,I do not understand.,0.6754,synthetic_test_replay
+Optimized_074,Optimized,2026-10-20T00:44:20.655800+00:00,Please cancel my latest purchase,out_of_scope,out_of_scope,delivery,delivery,0.8297,False,False,Delivery takes 2-4 days,0.7726,synthetic_test_replay
+Optimized_075,Optimized,2026-10-20T00:44:20.656793+00:00,What is the weather forecast tomorrow?,out_of_scope,out_of_scope,items,items,0.8815,False,False,We sell coffee and tea,0.7556,synthetic_test_replay
+Optimized_076,Optimized,2026-10-20T00:44:20.657697+00:00,Can you translate this into German?,out_of_scope,out_of_scope,goodbye,goodbye,0.95,False,False,"See you later, thanks for visiting",0.637,synthetic_test_replay
+Optimized_077,Optimized,2026-10-20T00:44:20.658475+00:00,How can I change my email address?,out_of_scope,out_of_scope,items,fallback,0.4447,True,True,I do not understand.,0.5384,synthetic_test_replay
+Optimized_078,Optimized,2026-10-20T00:44:20.659386+00:00,What is 19 multiplied by 27?,out_of_scope,out_of_scope,items,fallback,0.6637,True,True,I do not understand.,0.5636,synthetic_test_replay
+Optimized_079,Optimized,2026-10-20T00:44:20.660792+00:00,Where is the nearest railway station?,out_of_scope,out_of_scope,funny,fallback,0.5298,True,True,I do not understand.,0.6438,synthetic_test_replay
+Optimized_080,Optimized,2026-10-20T00:44:20.661507+00:00,Help me repair my broken laptop,out_of_scope,out_of_scope,thanks,fallback,0.746,True,True,I do not understand.,0.5204,synthetic_test_replay
+Optimized_081,Optimized,2026-10-20T00:44:20.662293+00:00,Can you change my billing address?,out_of_scope,out_of_scope,goodbye,goodbye,0.9299,False,False,"See you later, thanks for visiting",0.4971,synthetic_test_replay
+Optimized_082,Optimized,2026-10-20T00:44:20.664468+00:00,What are your store opening hours?,out_of_scope,out_of_scope,items,items,0.9763,False,False,We sell coffee and tea,1.9586,synthetic_test_replay
+Optimized_083,Optimized,2026-10-20T00:44:20.665437+00:00,Please delete my customer account,out_of_scope,out_of_scope,goodbye,fallback,0.5138,True,True,I do not understand.,0.5679,synthetic_test_replay
+Optimized_084,Optimized,2026-10-20T00:44:20.666325+00:00,I want to report a security problem,out_of_scope,out_of_scope,funny,funny,0.7904,False,False,Why did the hipster burn his mouth? He drank the coffee before it was cool.,0.5964,synthetic_test_replay
+Optimized_085,Optimized,2026-10-20T00:44:20.667779+00:00,How can I exchange a damaged item?,out_of_scope,out_of_scope,items,fallback,0.5561,True,True,I do not understand.,0.7142,synthetic_test_replay

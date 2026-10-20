@@ -1,0 +1,86 @@
+question,actual_intent,test_type,raw_prediction,predicted_intent,confidence
+"Hi there, can we chat?",greeting,in_scope,greeting,greeting,0.9999486207962036
+"Hello, I just arrived",greeting,in_scope,greeting,greeting,0.9995431900024414
+"Morning, anyone here?",greeting,in_scope,greeting,greeting,0.9912932515144348
+"Hey support, are you online?",greeting,in_scope,greeting,greeting,0.9966232776641846
+Greetings from a new customer,greeting,in_scope,greeting,greeting,0.9998277425765991
+"Hello again, assistant",greeting,in_scope,greeting,greeting,0.9928776621818542
+"Hi, I need some help",greeting,in_scope,greeting,fallback,0.5881373286247253
+Good evening to the support staff,greeting,in_scope,greeting,greeting,0.9998855590820312
+"Hey bot, how's it going?",greeting,in_scope,greeting,greeting,0.9959442019462585
+"Hello, may I ask something?",greeting,in_scope,greeting,greeting,0.9921042919158936
+I am done chatting for today,goodbye,in_scope,funny,fallback,0.6675053834915161
+"Farewell, assistant",goodbye,in_scope,thanks,thanks,0.9728817939758301
+Catch you another time,goodbye,in_scope,goodbye,goodbye,0.9881672263145447
+"That is all, bye for now",goodbye,in_scope,goodbye,goodbye,0.9997685551643372
+I must disconnect now,goodbye,in_scope,goodbye,goodbye,0.9897387623786926
+We are finished talking,goodbye,in_scope,funny,fallback,0.4022290110588074
+I will return another day,goodbye,in_scope,funny,funny,0.7777310013771057
+"Signing out, see you",goodbye,in_scope,goodbye,goodbye,0.9683501124382019
+"No more questions, farewell",goodbye,in_scope,greeting,fallback,0.5051131844520569
+I am leaving this conversation,goodbye,in_scope,goodbye,goodbye,0.9978471994400024
+Thanks a million,thanks,in_scope,thanks,thanks,0.9990440011024475
+That was very kind of you,thanks,in_scope,thanks,thanks,0.9463989734649658
+I am thankful for the information,thanks,in_scope,thanks,thanks,0.9983009696006775
+You've helped me a great deal,thanks,in_scope,thanks,thanks,0.8222687840461731
+My sincere thanks to you,thanks,in_scope,thanks,thanks,0.994931161403656
+I am very grateful,thanks,in_scope,thanks,fallback,0.7235280275344849
+I value your assistance,thanks,in_scope,thanks,fallback,0.5131637454032898
+Thank you so much for explaining,thanks,in_scope,thanks,thanks,0.9997588992118835
+"That really helped, thanks",thanks,in_scope,thanks,thanks,0.9999969005584717
+Please accept my thanks,thanks,in_scope,thanks,thanks,0.8871231079101562
+What can customers purchase here?,items,in_scope,items,items,0.9625793099403381
+What types of goods do you carry?,items,in_scope,items,items,0.9814965724945068
+May I see a list of products?,items,in_scope,funny,fallback,0.4831605851650238
+What is currently available to buy?,items,in_scope,items,items,0.9904699325561523
+Tell me about your product selection,items,in_scope,items,items,0.961406946182251
+Do you offer different categories of goods?,items,in_scope,greeting,greeting,0.9919431209564209
+Which things are sold in this store?,items,in_scope,greeting,fallback,0.7380015254020691
+I would like to explore your inventory,items,in_scope,items,items,0.9839206337928772
+What products does your business offer?,items,in_scope,delivery,fallback,0.604680597782135
+Show me the available merchandise,items,in_scope,items,items,0.9148072004318237
+Can customers use Visa at checkout?,payments,in_scope,payments,payments,0.8072006702423096
+Is it possible to pay electronically?,payments,in_scope,greeting,fallback,0.540061354637146
+Which payment options do you support?,payments,in_scope,greeting,fallback,0.6546295285224915
+Will you accept a bank transfer?,payments,in_scope,payments,payments,0.9977601766586304
+Can my purchase be paid by card?,payments,in_scope,goodbye,goodbye,0.9996883869171143
+Is cash payment possible?,payments,in_scope,payments,payments,0.9994509816169739
+What are the available ways to pay?,payments,in_scope,greeting,greeting,0.8471892476081848
+Do you support contactless payments?,payments,in_scope,payments,payments,0.8868812322616577
+Can I complete checkout with a credit card?,payments,in_scope,payments,payments,0.9999997615814209
+Is payment through an online wallet accepted?,payments,in_scope,payments,payments,0.9999723434448242
+Approximately when will my order arrive?,delivery,in_scope,delivery,delivery,0.994515597820282
+How many working days is shipping?,delivery,in_scope,items,fallback,0.6355816721916199
+How much time does delivery usually need?,delivery,in_scope,delivery,delivery,0.9998070597648621
+Can you estimate when my parcel gets here?,delivery,in_scope,delivery,delivery,0.999504566192627
+What is the normal shipping duration?,delivery,in_scope,delivery,delivery,0.9341585040092468
+How long before the goods reach my address?,delivery,in_scope,items,fallback,0.5122021436691284
+When can I expect the shipment?,delivery,in_scope,goodbye,goodbye,0.9754517674446106
+Is the delivery period several days?,delivery,in_scope,goodbye,fallback,0.39332082867622375
+How soon can my purchase arrive?,delivery,in_scope,delivery,delivery,0.9975206255912781
+Tell me the approximate delivery time,delivery,in_scope,delivery,delivery,0.8339669704437256
+Could you entertain me with a joke?,funny,in_scope,funny,funny,0.9997956156730652
+Please say something hilarious,funny,in_scope,funny,funny,0.9391894340515137
+I need a good laugh right now,funny,in_scope,funny,funny,0.9894115328788757
+Do you have any jokes to share?,funny,in_scope,items,items,0.9387256503105164
+Tell a joke to cheer me up,funny,in_scope,funny,funny,0.9998682737350464
+Can you make this conversation amusing?,funny,in_scope,goodbye,goodbye,0.9939895868301392
+Share something comical with me,funny,in_scope,funny,funny,0.9954410791397095
+Know any hilarious one-liners?,funny,in_scope,goodbye,fallback,0.5980051159858704
+Please tell me a silly story,funny,in_scope,funny,funny,0.9979870319366455
+Give me something funny to hear,funny,in_scope,funny,funny,0.9997400641441345
+Please reset my account password,out_of_scope,out_of_scope,goodbye,goodbye,0.9485140442848206
+I want to request a full refund,out_of_scope,out_of_scope,funny,funny,0.7903689742088318
+Can I speak to a human manager?,out_of_scope,out_of_scope,goodbye,fallback,0.740964412689209
+Please cancel my latest purchase,out_of_scope,out_of_scope,delivery,delivery,0.8296923041343689
+What is the weather forecast tomorrow?,out_of_scope,out_of_scope,items,items,0.8815087080001831
+Can you translate this into German?,out_of_scope,out_of_scope,goodbye,goodbye,0.9499900937080383
+How can I change my email address?,out_of_scope,out_of_scope,items,fallback,0.4447404444217682
+What is 19 multiplied by 27?,out_of_scope,out_of_scope,items,fallback,0.663740336894989
+Where is the nearest railway station?,out_of_scope,out_of_scope,funny,fallback,0.5298183560371399
+Help me repair my broken laptop,out_of_scope,out_of_scope,thanks,fallback,0.7460320591926575
+Can you change my billing address?,out_of_scope,out_of_scope,goodbye,goodbye,0.9299049973487854
+What are your store opening hours?,out_of_scope,out_of_scope,items,items,0.9763359427452087
+Please delete my customer account,out_of_scope,out_of_scope,goodbye,fallback,0.5138205885887146
+I want to report a security problem,out_of_scope,out_of_scope,funny,funny,0.7903689742088318
+How can I exchange a damaged item?,out_of_scope,out_of_scope,items,fallback,0.556136429309845
